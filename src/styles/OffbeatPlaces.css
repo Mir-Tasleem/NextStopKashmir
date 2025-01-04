@@ -1,0 +1,60 @@
+.offbeat-places {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100vw;
+  margin-top: 70px;
+}
+
+.offbeat-places h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.offbeat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.offbeat-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.offbeat-card h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.offbeat-card .description {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.activities h4 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.activities ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.activities li {
+  color: #666;
+  margin: 0.25rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.activities li:before {
+  content: '→';
+  color: #3498db;
+  position: absolute;
+  left: 0;
+}

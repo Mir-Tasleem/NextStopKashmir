@@ -1,0 +1,89 @@
+.packages-page {
+  padding: 2rem;
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.packages-page h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.package-section {
+  margin-bottom: 3rem;
+}
+
+.package-section h2 {
+  color: #34495e;
+  margin-bottom: 1.5rem;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.package-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.package-card h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.duration {
+  color: #3498db;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.highlights {
+  margin: 1rem 0;
+}
+
+.highlights h4 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.highlights ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.highlights li {
+  color: #666;
+  margin: 0.25rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.highlights li:before {
+  content: '•';
+  color: #3498db;
+  position: absolute;
+  left: 0;
+}
+
+.book-now {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+  background: #2980b9;
+}

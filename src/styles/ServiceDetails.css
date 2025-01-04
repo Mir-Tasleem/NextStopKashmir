@@ -1,0 +1,55 @@
+.service-details {
+  padding: 6rem 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.service-details h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.service-options, .service-vehicles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.service-option, .vehicle-option {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-option h3, .vehicle-option h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.service-option p, .vehicle-option p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.service-option ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.service-option li {
+  color: #666;
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.service-option li:before {
+  content: "→";
+  color: #3498db;
+  position: absolute;
+  left: 0;
+}
