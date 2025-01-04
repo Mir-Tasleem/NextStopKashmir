@@ -7,7 +7,7 @@ import Hotelrahvilla from '../assets/HOTELRAHVILLAS.jpeg';
 import Namrose from '../assets/Namrose.Jpeg';
 import Khyberhimalayan from '../assets/Khyberhimalayan.jpeg';
 import Countrysideresorts from '../assets/Countrysideresorts.jpeg';
-import HTDBN from '../assets/HOTELTHEDEWANBYNAQASH.Jpeg';
+import HTDBN from '../assets/HOTELTHEDEWANBYNAQASH.jpeg';
 import Houseboat from '../assets/Houseboat.jpg'
 import Houseboat2 from '../assets/Houseboat2.jpg'
 import Houseboat3 from '../assets/Houseboat3.jpg'
