@@ -58,3 +58,8 @@
   position: absolute;
   left: 0;
 }
+
+.offbeat-card img{
+  width: 25vw;
+  aspect-ratio: 1;
+}

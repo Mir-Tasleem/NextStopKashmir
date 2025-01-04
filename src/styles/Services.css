@@ -44,3 +44,8 @@
 .service-card p {
   color: #666;
 }
+
+.service-card img{
+  width: 15vw;
+  aspect-ratio: 1;
+}

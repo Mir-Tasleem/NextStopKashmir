@@ -39,3 +39,8 @@
 .destination-card p {
   color: #666;
 }
+
+.destination-card img{
+  width: 15vw;
+  aspect-ratio: 1;
+}

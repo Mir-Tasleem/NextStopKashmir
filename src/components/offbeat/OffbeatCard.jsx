@@ -3,6 +3,7 @@ import React from 'react';
 function OffbeatCard({ place }) {
   return (
     <div className="offbeat-card">
+      <img src={place.image} alt='place' />
       <h3>{place.name}</h3>
       <p className="description">{place.description}</p>
       <div className="activities">

@@ -76,3 +76,12 @@
 .submit-button:hover {
   background-color: #2980b9;
 }
+
+.google-map {
+  width: 100%;
+  height: inherit; /* Adjust height as needed */
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

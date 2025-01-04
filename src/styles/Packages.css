@@ -84,6 +84,15 @@
   transition: background-color 0.3s ease;
 }
 
+.book-now a{
+  text-decoration: none;
+  color: #fff;
+}
 .book-now:hover {
-  background: #2980b9;
+  background: #000;
+}
+
+.package-card img{
+  width: 40vw;
+  aspect-ratio: 1;
 }

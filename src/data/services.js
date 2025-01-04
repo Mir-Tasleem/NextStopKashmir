@@ -1,3 +1,7 @@
+import Hotelrahvilla from '../assets/HOTELRAHVILLAS.Jpeg';
+import Houseboat from '../assets/Houseboat.jpg'
+
+
 export const services = {
   accommodation: {
     id: 'accommodation',
@@ -6,12 +10,14 @@ export const services = {
       {
         title: 'Luxury Hotel Bookings',
         description: 'Premium 5-star hotels and resorts across Kashmir',
-        features: ['24/7 Room Service', 'Spa & Wellness', 'Fine Dining']
+        features: ['24/7 Room Service', 'Spa & Wellness', 'Fine Dining'],
+        image: Hotelrahvilla
       },
       {
         title: 'Houseboats Booking',
         description: 'Traditional Kashmiri houseboats on Dal Lake',
-        features: ['Lake View Rooms', 'Traditional Cuisine', 'Shikara Services']
+        features: ['Lake View Rooms', 'Traditional Cuisine', 'Shikara Services'],
+        image: Houseboat
       }
     ]
   },

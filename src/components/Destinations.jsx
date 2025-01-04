@@ -1,13 +1,17 @@
 import React from 'react';
 import '../styles/Destinations.css';
 import { Link } from 'react-router-dom';
+import Gulmarg from '../assets/gulmarg.jpeg';
+import dallake from '../assets/dallake.jpg';
+import pahalgam from '../assets/pahalgam.jpg';
+import sonmarg from '../assets/sonmarg.jpg'
 
 function Destinations() {
   const destinations = [
-    { name: 'Dal Lake', description: 'The jewel of Srinagar' },
-    { name: 'Gulmarg', description: 'Paradise for snow lovers' },
-    { name: 'Pahalgam', description: 'Valley of Shepherds' },
-    { name: 'Sonamarg', description: 'The Meadow of Gold' },
+    { name: 'Dal Lake', description: 'The jewel of Srinagar', image:dallake},
+    { name: 'Gulmarg', description: 'Paradise for snow lovers', image:Gulmarg},
+    { name: 'Pahalgam', description: 'Valley of Shepherds', image: pahalgam},
+    { name: 'Sonamarg', description: 'The Meadow of Gold', image: sonmarg},
   ];
 
   return (
@@ -16,6 +20,7 @@ function Destinations() {
       <div className="destinations-grid">
         {destinations.map((dest, index) => (
           <div className="destination-card" key={index}>
+            <img src={dest.image} alt="dest" />
             <h3>{dest.name}</h3>
             <p>{dest.description}</p>
           </div>
