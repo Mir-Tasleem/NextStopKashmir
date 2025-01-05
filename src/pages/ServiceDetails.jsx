@@ -4,7 +4,7 @@ import { services } from '../data/services';
 import '../styles/ServiceDetails.css';
 import Hotelheewan from '../assets/Hotelheewan.jpeg';
 import Hotelrahvilla from '../assets/HOTELRAHVILLAS.jpeg';
-import Namrose from '../assets/Namrose.Jpeg';
+import Namrose from '../assets/Namrose.jpeg';
 import Khyberhimalayan from '../assets/Khyberhimalayan.jpeg';
 import Countrysideresorts from '../assets/Countrysideresorts.jpeg';
 import HTDBN from '../assets/HOTELTHEDEWANBYNAQASH.jpeg';
