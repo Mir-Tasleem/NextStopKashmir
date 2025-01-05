@@ -4,7 +4,7 @@ import '../styles/Services.css';
 import transport from '../assets/transport.jpg'
 import travel from '../assets/Travel.jpg'
 import adventure from '../assets/Adventure.jpg'
-import Hotelrahvilla from '../assets/HOTELRAHVILLAS.Jpeg';
+import Hotelrahvilla from '../assets/HOTELRAHVILLAS.jpeg';
 
 
 function Services() {

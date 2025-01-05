@@ -1,4 +1,4 @@
-import Hotelrahvilla from '../assets/HOTELRAHVILLAS.Jpeg';
+import Hotelrahvilla from '../assets/HOTELRAHVILLAS.jpeg';
 import Houseboat from '../assets/Houseboat.jpg'
 
 

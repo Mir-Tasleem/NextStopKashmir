@@ -20,7 +20,7 @@ function Destinations() {
       <div className="destinations-grid">
         {destinations.map((dest, index) => (
           <div className="destination-card" key={index}>
-            <img src={dest.image} alt="dest" />
+            <Link to='/offbeat-places'><img src={dest.image} alt="dest" /></Link>
             <h3>{dest.name}</h3>
             <p>{dest.description}</p>
           </div>
