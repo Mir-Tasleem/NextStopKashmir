@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Destinations.css';
 import { Link } from 'react-router-dom';
-import Gulmarg from '../assets/gulmarg.jpeg';
+import Gulmarg from '../assets/Gulmarg.jpeg';
 import dallake from '../assets/dallake.jpg';
 import pahalgam from '../assets/pahalgam.jpg';
 import sonmarg from '../assets/sonmarg.jpg'
