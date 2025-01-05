@@ -13,7 +13,7 @@ function Hero() {
         <h1>Discover Paradise on Earth</h1>
         <p>Experience the breathtaking beauty of Kashmir</p>
         <button className="cta-button">
-          <a href="tel:9876765678">Book Now</a>
+          <a href="tel:+916006744142">Book Now</a>
         </button>
       </div>
     </div>
