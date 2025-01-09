@@ -13,7 +13,7 @@ function Footer() {
           <h3>Contact Us</h3>
           <p>
             <a href="mailto:nextstopkashmir@gmail.com">
-              Email: nextstopkashmir@gmail.com
+              Email: nextstopkashmir19@gmail.com
             </a>
           </p>
           <p>Phone: +91 6006744142</p>
